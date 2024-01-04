@@ -10,5 +10,6 @@ import VideoDetails from "./VideoDetails";
 import Video from "./Video";
 import ChannelCard from './ChannelCard'
 import VideoCard from './VideoCard'
+import Loader from './Loader'
 
-export   {ChannelDetails,Feed,Navbar,Sidebar,SearchFeed,SearchBar,VideoDetails,Video,VideoCard,ChannelCard}
+export   {ChannelDetails,Feed,Navbar,Sidebar,SearchFeed,SearchBar,VideoDetails,Video,VideoCard,ChannelCard,Loader}
