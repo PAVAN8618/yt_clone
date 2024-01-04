@@ -4,7 +4,7 @@ import React from 'react'
 import { categories } from '../utils/constants'
 
 const selectedCategory = 'New';
-const Sidebar =()=> (
+const Sidebar =({selectedCategory,setSelectedCategory})=> (
  
   
     <Stack
@@ -18,6 +18,7 @@ const Sidebar =()=> (
       {categories.map((Category)=>(
         <button
         className='category-btn'
+        onClick={()=>setSelectedCategory(Category.name)}
         style={{
           background:categories.name === selectedCategory && '#FC1503',color:'white'
         }}
