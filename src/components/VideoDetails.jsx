@@ -21,6 +21,7 @@ const VideoDetail = () => {
   }, [id]);
 
   if(!videoDetail?.snippet) return <Loader />;
+  
 
   const { snippet: { title, channelId, channelTitle }, statistics: { viewCount, likeCount } } = videoDetail;
 
