@@ -1,9 +1,9 @@
-import { Category } from '@mui/icons-material'
+//import { Category } from '@mui/icons-material'
 import { Stack } from '@mui/material'
 import React from 'react'
 import { categories } from '../utils/constants'
 
-const selectedCategory = 'New';
+// const selectedCategory = 'New';
 const Sidebar =({selectedCategory,setSelectedCategory})=> (
  
   
